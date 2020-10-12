@@ -1,4 +1,8 @@
-## Attributemaster ULP for Eagle 6.x and higher
+# Attributemaster ULP for Eagle 6.x and higher
+
+## Important, important, important, important!
+
+This library was moved to [https://gitlab.gwdg.de/mario.hesse/Attributemaster-ULP-for-Eagle-6-x-and-higher](https://gitlab.gwdg.de/mario.hesse/Attributemaster-ULP-for-Eagle-6-x-and-higher). Here you can only see the old version from 12/10/202020.
 
 The **Attributemaster** allows you to create, modify and delete attributes for multiple parts in your sheet.
 
@@ -11,7 +15,7 @@ This documentation explains the use of:
 
 
 
-### The partlist
+## The partlist
 ![partlist](doku/Attributemaster_partlist.jpg)
 
 By starting the ULP, you'll see a partlist at first place. 
@@ -34,7 +38,7 @@ By clicking *'Add attribute'*, you can create a new attribute for **all checked 
 By clicking *'Delete attribute'*, you can delete the attribute selected in the attributelist for **all checked parts** in the checkboxes. 
 If the attribute is defined within a library, it can't be deleted and will be recreated with it's *standardvalue*.
 
-### Modifying attributes
+## Modifying attributes
 
 On the lower left side of the ULP you can see some checkboxes and the so called *modification-field*. In the Combobox you can select one of all used attributes (and 'VALUE'). Alternatively you can doubleclick in the *attributelist*. By entering a value in the inputflied and clicking *'change'*, the selected attribute of **all checked parts** will get the entered value.
 
